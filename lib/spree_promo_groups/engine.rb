@@ -1,5 +1,7 @@
 module SpreePromoGroups
   class Engine < Rails::Engine
+    require 'spree/core'
+
     engine_name 'spree_promo_groups'
     isolate_namespace Spree
 
